@@ -1,0 +1,7 @@
+[29-Oct-2022 10:41:56 Asia/Jakarta] PHP Fatal error:  Uncaught PHPExcel_Exception: Workbook does not contain sheet:data in /home/k4645222/public_html/ujian/application/third_party/PHP_Excel/PHPExcel.php:711
+Stack trace:
+#0 /home/k4645222/public_html/ujian/application/controllers/import.php(39): PHPExcel->setActiveSheetIndexByName('data')
+#1 /home/k4645222/public_html/ujian/system/core/CodeIgniter.php(360): Import->siswa()
+#2 /home/k4645222/public_html/ujian/index.php(202): require_once('/home/k4645222/...')
+#3 {main}
+  thrown in /home/k4645222/public_html/ujian/application/third_party/PHP_Excel/PHPExcel.php on line 711
